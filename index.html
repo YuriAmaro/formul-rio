@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="imagens/undraw_shopping_re_hdd9(1).svg" alt="mulher-fazendo-compras">
+        </div>
+        <div id="form">
+            <div>
+                <input class="checkbox" type="checkbox" id="chk" name="chk">
+                <label class="label" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div> 
+                </label>
+            </div>
+            <form id="form-dark" action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome:</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome:</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular" placeholder="(xx) x xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="senha">Confirme sua senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                        <label class="gender-title" for="gender">Gênero:</label>
+                </div>
+                <div class="gender-group">
+                    
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+            
+                    <div class="gender-input">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+            
+                    <div class="gender-input">
+                        <input type="radio" id="none" name="gender">
+                        <label for="none">Prefiro não dizer</label>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/4aded3efd8.js" crossorigin="anonymous"></script>
+</body>
+</html>
